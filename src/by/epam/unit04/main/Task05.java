@@ -25,14 +25,13 @@ public class Task05 {
 
 		for (int j = 0; j < array.length; j++) {
 			temp = array[j];
-			 int i = j - 1;
-			for ( i = j - 1; i >= 0; i--) {
+			int i = j - 1;
+			for (i = j - 1; i >= 0; i--) {
 				if (temp < array[i]) {
 					array[i + 1] = array[i];
 				} else {
 					break;
 				}
-				
 
 			}
 			array[i + 1] = temp;
@@ -43,6 +42,7 @@ public class Task05 {
 			System.out.printf("%5d ", array[i]);
 		}
 		System.out.println();
+		scanner.close();
 
 	}
 
