@@ -25,9 +25,8 @@ public class Task09 {
 					System.out.println();
 				}
 		  }
-		  else {
+		  else 
 			  System.out.println("Вы ввели нечетное число"); 
-		  }
 		
 	}
 }
