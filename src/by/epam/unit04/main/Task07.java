@@ -25,11 +25,10 @@ public class Task07 {
 			System.out.println();
 		}
 
-		System.out.println( "\n" + "Elements that stand on the diagonal: ");
+		System.out.println("\n" + "Elements that stand on the diagonal: ");
 
 		for (int i = 0; i < n; i++) {
 			System.out.printf("[%5d]", array[i][i]);
-		//	System.out.print(array[i][i] + "\t");
 		}
 	}
 }
